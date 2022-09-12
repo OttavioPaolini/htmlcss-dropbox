@@ -24,8 +24,6 @@ ul{
 .container-s{
     width: 70%;
     margin: 0 auto;
-    
-
     /* debug */
     min-height: 800px;
     background-color: lightgreen;
@@ -35,6 +33,9 @@ ul{
 }
 .space-between{
     justify-content: space-between;
+}
+.wrap{
+    flex-wrap: wrap;
 }
 .mb{
     margin-bottom: 50px;
@@ -86,4 +87,13 @@ nav{
 }
 .photo-partner{
     width: 60%;
+}
+
+/* MAIN CARD */
+.col{
+    width: calc(100% / 3 - 50px);
+    
+    /* debug */
+    border: 1px solid red;
+    min-height: 300px;
 }
