@@ -36,3 +36,9 @@ nav{
     height: 60px;
     background-color: lavender;
 }
+/* HEADER-BANNER */
+.banner-section{
+    width: 100%;
+    min-height: 420px;
+    background-color: #B4D0E7;
+}
