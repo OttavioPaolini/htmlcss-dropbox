@@ -53,7 +53,7 @@ nav{
 }
 
 /* MAIN-PRICE-SECTION */
-.col{
+.col-price{
     width: calc(100% / 3 - 50px);
     
     /* debug */
@@ -76,4 +76,14 @@ nav{
     min-height: 30px;
     border: 1px solid red;
     background-color: lightpink;
+}
+/* MAIN PARTNER */
+.find-partner{
+    width: 40%;
+    /* debug */
+    border: 1px red solid;
+    
+}
+.photo-partner{
+    width: 60%;
 }
