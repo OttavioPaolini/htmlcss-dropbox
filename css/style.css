@@ -17,7 +17,7 @@ ul{
 /* COMMON */
 .container-l{
     width: 80%;
-
+    margin: 0 auto;
     /* debug */
     background-color: lightblue;
 }
@@ -148,4 +148,19 @@ nav{
 }
 .color8{
     background-color: #FFD830;
+}
+
+/* FOOTER */
+.credit-footer{
+    width: calc(100% / 5);
+    /* debug */
+    border: 1px solid red;
+    min-height: 300px;
+}
+.lenguage{
+    height: 60px;
+}
+
+.bg-b{
+    background-color: black;
 }
