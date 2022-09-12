@@ -97,3 +97,31 @@ nav{
     border: 1px solid red;
     min-height: 300px;
 }
+/* MAIN END */
+.credit-business{
+    /* debug */
+    min-height: 300px;
+    border: 1px solid red;
+    background-color: lightskyblue;
+}
+/* SECTION WITH SQUARE */
+.square-section{
+    height: 370px;
+    width: 100%;
+    /* debug */
+    border: 1px solid red;
+}
+.square{
+    height: 100%;
+    width: calc(100% / 3)
+}
+.inner-square{
+    height: 185px;
+    width: calc(100% / 2);
+    border: 1px solid red;
+}
+.square-mid{
+    width: calc(100% / 3);
+    height: 370px;
+    background-color: aquamarine;
+}
