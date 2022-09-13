@@ -22,22 +22,12 @@ ul{
 .container-s{
     width: 60%;
     margin: 0 auto;
-    /* debug */
-    min-height: 200px;
-    background-color: lightgreen;
 }
 .col-20{
     width: 20%;
-    /* debug */
-    min-height: 200px;
-    background-color: darkkhaki;
-    border: 1px solid red;
 }
 .col-30{
     width: 30%;
-    /* debug */
-    min-height: 200px;
-    background-color: lawngreen;
 }
 .col-40{
     width: 40%;
@@ -47,9 +37,6 @@ ul{
 }
 .col-70{
     width: 70%;
-    /* debug */
-    min-height: 200px;
-    background-color: #5d98c9;
 }
 .display-flex{
     display: flex;
@@ -113,7 +100,7 @@ nav{
     left: 0;
     top: 0;
 }
-.col-40 p{
+.relative p{
     font-size: .8em;
     padding: 0 0 2em;
     text-align: left;
@@ -128,6 +115,7 @@ nav{
 .container-s h2{
     padding-bottom: 1em;
 }
+
 .radio-buttons{
     padding-bottom: 1em;
 }
@@ -136,30 +124,29 @@ nav{
 }
 .enterprise-section{
     width: 100%;
-
+    border: 1px solid grey;
     /* debug */
     min-height: 150px;
-    border: 1px solid red;
-    background-color: lightpink;
 }
 .team{
     width: 100%;
-    /* debug */
-    min-height: 30px;
-    border: 1px solid red;
-    background-color: lightpink;
+    text-align: center;
+    border-bottom: 1px solid grey;
+
+}
+.team span{
+    text-align: center;
 }
 /* MAIN PARTNER */
-
-/* MAIN CARD */
-
-/* MAIN END */
-.credit-business{
-    /* debug */
-    min-height: 300px;
-    border: 1px solid red;
-    background-color: lightskyblue;
+.partner a{
+    margin-top: 1em;
+    border: 1px solid grey;
 }
+/* MAIN CARD */
+.main-card{
+    font-size: .8em;
+}
+/* MAIN END */
 /* SECTION WITH SQUARE */
 .square-section{
     height: 370px;
