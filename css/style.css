@@ -208,8 +208,6 @@ ul.features li i{
 .square-section{
     height: 370px;
     width: 100%;
-    /* debug */
-    border: 1px solid red;
 }
 .square{
     height: 100%;
@@ -218,7 +216,6 @@ ul.features li i{
 .inner-square{
     height: 185px;
     width: calc(100% / 2);
-    border: 1px solid red;
 }
 .square-mid{
     width: calc(100% / 3);
@@ -233,6 +230,9 @@ ul.features li i{
 }
 .square p{
     padding: 1em;
+}
+.filter{
+    filter: invert(100%) sepia(8%) saturate(6477%) hue-rotate(293deg) brightness(123%) contrast(107%);
 }
 /* SQUARE-COLOR */
 .color1{
