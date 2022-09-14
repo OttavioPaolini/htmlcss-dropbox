@@ -81,6 +81,11 @@ nav a{
     background-color: #0061FF;
     color: white;
 }
+.btn-secondary{
+    background-color: white;
+    text-decoration: none;
+    color: inherit;
+}
 .relative{
     position: relative;
 }
@@ -259,7 +264,23 @@ ul.features li i{
 .color8{
     background-color: #FFD830;
 }
+/* COME TO US */
+.bg-c{
+    background-color: #B4D0E7;
+}
+.pad-5{
+    padding: 5em 0;
+}
 
+/* FAQ */
+
+.hr-full{
+    width: 100%;
+    
+}
+.faq li{
+    padding: 1.8em 0;
+}
 /* FOOTER */
 .lenguage{
     height: 60px;
