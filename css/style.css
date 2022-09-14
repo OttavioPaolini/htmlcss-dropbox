@@ -288,4 +288,15 @@ ul.features li i{
 
 .bg-b{
     background-color: black;
+    color: white;
+}
+.col-20 .footer-ul li{
+    margin: 1em 0;
+}
+.col-20 .footer-ul a{
+    color: inherit;
+    text-decoration: none;
+}
+.font-small{
+    font-size: .9em;
 }
