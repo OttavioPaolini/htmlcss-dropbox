@@ -20,10 +20,12 @@ nav a{
 /* COMMON */
 .container-l{
     width: 70%;
+    max-width: 1200px;
     margin: 0 auto;   
 }
 .container-s{
     width: 60%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .col-20{
@@ -44,6 +46,9 @@ nav a{
 .display-flex{
     display: flex;
 }
+.justify-content{
+    justify-content: center;
+}
 .space-between{
     justify-content: space-between;
 }
@@ -63,10 +68,18 @@ nav a{
 .mb-1{
     margin-bottom: 1em;
 }
-.bt-s{
-    padding: .5em 1em;
-    color: white;
+.mb-2{
+    margin-bottom: 2em;
+}
+.btn{
+    padding: .5em .8em;
+    display: inline-block;
+    line-height: normal;
+}
+.btn-primary{
+    text-decoration: none;
     background-color: #0061FF;
+    color: white;
 }
 .relative{
     position: relative;
@@ -74,8 +87,12 @@ nav a{
 .block{
     display: inline-block;
 }
-.bts-sa{
-    color: white;
+
+.text-center{
+    text-align: center;
+}
+.hr{
+    width: 25%;
 }
 /* HEADER-NAV */
 nav{
@@ -89,7 +106,7 @@ nav{
     margin-right: 2em;
     color: inherit;
 }
-.display-flex a{
+.a-no a{
     text-decoration: none;
 }
 /* HEADER-BANNER */
@@ -118,13 +135,40 @@ nav{
     font-size: 1.5em;
 }
 /* MAIN-PRICE-SECTION */
+.radio-b label{
+    margin-right: 1em;
+}
+.plan-card{
+    margin-bottom: 1em;
+    border: 1px solid lightgrey;
+
+}
+.plan-card header{
+    padding: .4em 0;
+}
+.plan-card article{
+    padding: 1em;
+}
+.plan-card li{
+    margin-bottom: .4em;
+}
+ul.features li{
+    display: flex;
+    align-items: flex-start;
+}
+ul.features li i{
+    margin-right: .5em;
+}
+.plan-card .period{
+    color: lightgrey;
+}
 .container-s h2{
     padding-bottom: 1em;
 }
 .radio-b{
-    margin: 1em 0;
-    
+    margin: 1em 0;  
 }
+
 .enterprise-section{
     width: 100%;
     border: 1px solid grey;
@@ -179,6 +223,16 @@ nav{
 .square-mid{
     width: calc(100% / 3);
     height: 370px;
+}
+.sponsor{
+    width: 50%;
+}
+#sponsor{
+    width: 50%;
+    padding: 1.5em;
+}
+.square p{
+    padding: 1em;
 }
 /* SQUARE-COLOR */
 .color1{

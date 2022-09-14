@@ -15,7 +15,7 @@
 
     <nav class="display-flex space-between align-center fixed">
         <div class="why-us">
-            <ul class="display-flex align-center">
+            <ul class="display-flex align-center a-no">
                 <li><a href=""><img src="img/logo-small.png" alt="Dropbox logo"></a></li>
                 <li><a href="">Perchè Dropbox</a></li>
                 <li><a href="">Funzioni</a></li>
@@ -23,11 +23,11 @@
             </ul>
         </div>
         <div class="support">
-            <ul class="display-flex">
+            <ul class="display-flex a-no">
                 <li><a href="">Supporto</a></li>
                 <li><a href="">Contatta l'ufficio vedndite</a></li>
                 <li><a href="">Accedi</a></li>
-                <li><a href="" class="bt-s">Inizia</a></li>
+                <li><a href="" class="btn btn-primary">Inizia</a></li>
             </ul>
         </div>
     </nav>
@@ -42,9 +42,15 @@
                 <p>Finalmente tutti i tuoi strumenti contenuiti e collaboratori sono accessibili allo stesso posto, Dropbox Business è più
                     di uno spazio di archiviazione sicuro è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
                 </p>
-                <a href="" class="bt-s block mb-1">Inizia la tua prova gratuita</a>
-                <a href=""class="block" >Annulla in qualsiasi momento</a>
-                <i id="icon" class="fa-solid fa-arrow-down"></i>
+                <div>
+                    <a href="" class="btn-primary btn block mb-1">Inizia la tua prova gratuita</a>
+                </div>
+                <div>    
+                    <a href="">Annulla in qualsiasi momento</a>
+                </div>
+                <div>
+                    <i id="icon" class="fa-solid fa-arrow-down"></i>
+                </div>
             </div>
                 <div class="col-60 relative">
                     <img class="banner" src="img/jumbo.png" alt="">
@@ -55,34 +61,155 @@
             <!-- /header-banner -->
 
             <!-- main-price-section -->
-    <section class="">
+    <section class="plans-section">
         <div class="container-s">
             <h2>Trova il piano business che fa per te</h2>
-            <span class="radio-b">
-                <input type="radio"name="Fatturazione" id="Mensile">Fatturazione Mensile
-                <input type="radio" name="Fatturazione" id="Annuale">Fatturazione Annuale        
-            </span>
+            <div class="radio-b mb-2">
+                <input type="radio"name="Fatturazione" id="Mensile">
+                <label for="Mensile">Fatturazione Mensile</label>
+
+                <input type="radio" name="Fatturazione" id="Annuale">
+                <label for="Annuale">Fatturazione Annuale</label>
+            </div>
+
             <div class="row display-flex space-between mb">
                 <div class="col-30">
-                    <div class="card-title">
-                        <i class="fa-solid fa-user"></i> Singolo
-                    </div>
-                    <div class="card">
-                        <h3>Professional</h3>
-                        <span>&euro; 12.00</span>
-                        <span>/mese</span>
-                        <ul>
-                            <li><i class="fa-solid fa-user"></i> 1 utente</li>
-                            <li><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</li>
-                            <li><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li>
-                        </ul>
+                    <div class="plan-card">
+                        <header class="text-center">
+                            <i class="fa-solid fa-user"></i>
+                            Singolo
+                        </header>
+                        <article>                    
+                            <h3>Professional</h3>
+                            <p class="price">&euro; 12.00</p>
+                            <p class="period">/mese</p>
+                            <ul class="features">
+                                <li>
+                                    <i class="fa-solid fa-user"></i> 
+                                    1 utente
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-folder"></i> 
+                                    5 TB di spazio di archiviazione sicuro
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                    Funzioni di produttività premium e condivisione file semplice e sicura
+                                </li>
+                            </ul>
+                            <a href="" class="btn btn-primary">Prova Gratis per 30 giorni</a>
+                            <div>
+                                oppure
+                                <a href="">acquista ora</a>
+                            </div>
+
+                            <hr class="hr">
+
+                            <h4>Punti salienti del piano</h4>
+                            <ul class="features">
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Invia file fino a 100 gb con Dropbox Transfert
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Cartelle offline su dispoitivi mobili
+                                </li>
+                            </ul>
+                        </article>
                     </div>
                 </div>
                 <div class="col-30">
-                    <div class="card"></div>
+                    <div class="plan-card">
+                        <header class="text-center">
+                            <i class="fa-solid fa-user"></i>
+                            Singolo
+                        </header>
+                        <article>                    
+                            <h3>Professional</h3>
+                            <p class="price">&euro; 12.00</p>
+                            <p class="period">/mese</p>
+                            <ul class="features">
+                                <li>
+                                    <i class="fa-solid fa-user"></i> 
+                                    1 utente
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-folder"></i> 
+                                    5 TB di spazio di archiviazione sicuro
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                    Funzioni di produttività premium e condivisione file semplice e sicura
+                                </li>
+                            </ul>
+                            <a href="" class="btn btn-primary">Prova Gratis per 30 giorni</a>
+                            <div>
+                                oppure
+                                <a href="">acquista ora</a>
+                            </div>
+
+                            <hr class="hr">
+
+                            <h4>Punti salienti del piano</h4>
+                            <ul class="features">
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Invia file fino a 100 gb con Dropbox Transfert
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Cartelle offline su dispoitivi mobili
+                                </li>
+                            </ul>
+                        </article>
+                    </div>
                 </div>
                 <div class="col-30">
-                    <div class="card"></div>
+                    <div class="plan-card">
+                        <header class="text-center">
+                            <i class="fa-solid fa-user"></i>
+                            Singolo
+                        </header>
+                        <article>                    
+                            <h3>Professional</h3>
+                            <p class="price">&euro; 12.00</p>
+                            <p class="period">/mese</p>
+                            <ul class="features">
+                                <li>
+                                    <i class="fa-solid fa-user"></i> 
+                                    1 utente
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-folder"></i> 
+                                    5 TB di spazio di archiviazione sicuro
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                    Funzioni di produttività premium e condivisione file semplice e sicura
+                                </li>
+                            </ul>
+                            <a href="" class="btn btn-primary">Prova Gratis per 30 giorni</a>
+                            <div>
+                                oppure
+                                <a href="">acquista ora</a>
+                            </div>
+
+                            <hr class="hr">
+
+                            <h4>Punti salienti del piano</h4>
+                            <ul class="features">
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Invia file fino a 100 gb con Dropbox Transfert
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Cartelle offline su dispoitivi mobili
+                                </li>
+                            </ul>
+                        </article>
+                    </div>
                 </div>
             </div>
             <div class="enterprise-section mb">
@@ -94,7 +221,7 @@
                         <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
                     </div>
                     <div class="col-30">
-                        <div><a class="bt-s" href="">Contatta l'ufficio vendite</a></div>
+                        <div><a class="btn btn-primary" href="">Contatta l'ufficio vendite</a></div>
                     </div>
                 </div>
             </div>
@@ -114,7 +241,7 @@
                         per raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione
                         gestione e supporto continui.
                     </p>
-                    <a href="">Trova un partner</a>
+                    <a href="" class="btn">Trova un partner</a>
                 </div>
             </div>
         </div>
@@ -132,8 +259,7 @@
                         <h3>Passa di meno da uno strumento all'altro</h3>
                         <p>Porta a termine le attività quotidiane con un solo strumento.
                             Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, FinalmenteMicrosoft Office e Dropbox
-                            Paper direttamente da Dropbox
-                        </p>             
+                            Paper direttamente da Dropbox</p>                                 
                     </div>
                 </div>
                 <div class="col-30">
@@ -206,17 +332,40 @@
             <!-- section-with-square -->
     <section class="square-section display-flex">
         <div class="square display-flex wrap">
-            <div class="inner-square color1"></div>
-            <div class="inner-square color2"></div>
-            <div class="inner-square color3"></div>
-            <div class="inner-square color4"></div>
+            <div class="inner-square color1 display-flex justify-content">
+                <img src="img/designit.svg" alt="" class="sponsor">
+            </div>
+            <div class="inner-square color2 display-flex justify-content">
+                <img src="img/arizona_state_university.svg" alt="" class="sponsor">
+            </div>
+            <div class="inner-square color3 display-flex align-center justify-content">
+                <img src="img/university_of_florida.svg" alt="" class="sponsor">
+            </div>
+            <div class="inner-square color4 display-flex justify-content">
+                <img src="img/topps.svg" alt="" class="sponsor">
+            </div>
         </div>
-        <div class="square"></div>
+        <div class="square">
+            <img src="img/designit.svg" alt="" id="sponsor">
+
+            <hr class="hr">
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, beatae corrupti odit voluptatem odio esse officia placeat eos nisi sed dolore adipisci repellendus. Similique odit totam nostrum saepe, officiis provident!</p>
+            <p>Morten Thomsen, Global IT Lead</p>
+        </div>
         <div class="square display-flex wrap">
-            <div class="inner-square color5"></div>
-            <div class="inner-square color6"></div>
-            <div class="inner-square color7"></div>
-            <div class="inner-square color8"></div>
+            <div class="inner-square color5 display-flex justify-content align-center">
+                <img src="img/world_bicycle_relief.svg" alt="" class="sponsor">
+            </div>
+            <div class="inner-square color6 display-flex justify-content align-center">
+                <img src="img/hearst_corp.svg" alt="" class="sponsor">
+            </div>
+            <div class="inner-square color7 display-flex justify-content align-center">
+                <img src="img/lonely_planet.svg" alt="" class="sponsor">
+            </div>
+            <div class="inner-square color8 display-flex justify-content align-center">
+                <img src="img/clear_channel.svg" alt="" class="sponsor">
+            </div>
         </div>
     </section>
             <!-- /section-with-square -->
